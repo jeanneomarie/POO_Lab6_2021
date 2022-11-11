@@ -22,6 +22,5 @@ public class Main {
         System.out.println(b.getField()); // 1
         System.out.println(((Sub)b).getField()); // 1
         System.out.println(((Base)s).getField()); // 1
-
     }
 }
