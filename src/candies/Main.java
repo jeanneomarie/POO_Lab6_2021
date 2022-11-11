@@ -19,10 +19,12 @@ public class Main {
         order.printOrder();
 
         Candy sweetCandy = new SweetCandy("lion", 18, "caramel");
+        SweetCandy sweetCandy2 = new SweetCandy("lion", 18, "caramel");
         Candy saltedCandy = new SaltedCandy("twix", 23);
 
         candy1.printCandy();
         sweetCandy.printCandy();
+        sweetCandy2.printCandy();
         saltedCandy.printCandy();
     }
 }
