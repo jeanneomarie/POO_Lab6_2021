@@ -6,5 +6,4 @@ public class Base {
     public int getField() {
         return field;
     }
-
 }
